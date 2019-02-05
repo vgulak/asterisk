@@ -51,3 +51,4 @@ vgulak:x:1000:
 ntp:x:111:
 mysql:x:112:
 ssl-cert:x:113:
+testgit:x:1001:

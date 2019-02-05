@@ -18,7 +18,7 @@ voice:*::
 cdrom:*::vgulak
 floppy:*::vgulak
 tape:*::
-sudo:*::
+sudo:*::vgulak
 audio:*::vgulak
 dip:*::vgulak
 www-data:*::

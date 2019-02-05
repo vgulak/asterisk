@@ -23,6 +23,6 @@ systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
 _apt:x:104:65534::/nonexistent:/bin/false
 messagebus:x:105:109::/var/run/dbus:/bin/false
 sshd:x:106:65534::/run/sshd:/usr/sbin/nologin
-vgulak:x:1000:1000:vgulak,,,:/home/vgulak:/bin/bash
 ntp:x:107:111::/home/ntp:/bin/false
-mysql:x:108:112::/nonexistent:/bin/false
+mysql:x:108:112:MySQL Server,,,:/nonexistent:/bin/false
+testgit:x:1000:1001::/home/testgit:/bin/bash

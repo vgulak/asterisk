@@ -18,6 +18,20 @@
 #
 [client-server]
 
+[mysqld]
+
+
+bind-address = 0.0.0.0
+server-id = 1
+# путь к бинарному логу
+log_bin = /var/log/mysql/mysql-bin.log
+replicate-do-db = test1
+replicate-do-db = test2
+
+
+
 # Import all .cnf files from configuration directory
 !includedir /etc/mysql/conf.d/
 !includedir /etc/mysql/mariadb.conf.d/
+
+
